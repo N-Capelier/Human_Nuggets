@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Import/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
+- path: Assets/_Scenes/NCO_Main.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
