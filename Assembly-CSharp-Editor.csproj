@@ -62,35 +62,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Import\GoogleARCore\Examples\Common\Scripts\Editor\PointcloudVisualizerEditor.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\InstantPreview\Scripts\Editor\InstantPreviewBugReport.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\Analytics\ArcoreClearcut.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\Analytics\ArcoreSdkLog.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\AndroidDependenciesHelper.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\ARCoreAnalytics.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\ARCoreAnalyticsGUI.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\ARCoreAnalyticsPreferences.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\ARCoreAnalyticsProvider.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\ARCoreIOSSupportHelper.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\ARCoreIOSSupportPreprocessBuild.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\ARCoreProjectSettingsGUI.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\ARCoreProjectSettingsProvider.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\ARCoreProjectSettingsWindow.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\ARCoreSupportedPreprocessBuild.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\AssetHelper.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\AugmentedImageDatabaseContextMenu.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\AugmentedImageDatabaseInspector.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\AugmentedImageDatabasePreprocessBuild.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\BackgroundJobExecutor.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\CloudAnchorPreprocessBuild.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\ExampleBuildHelper.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\ExamplePreprocessBuild.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\HelpAttributeDrawer.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\LogRequestUtils.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\PreprocessBuildBase.cs" />
-    <Compile Include="Assets\Import\GoogleARCore\SDK\Scripts\Editor\RequiredOptionalPreprocessBuild.cs" />
-    <None Include="Assets\Import\GoogleARCore\Editor\ARCoreiOSDependencies.template" />
-    <None Include="Assets\Import\PlayServicesResolver\Editor\play-services-resolver_v1.2.122.0.txt" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\Examples\Common\Scripts\Editor\PointcloudVisualizerEditor.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\InstantPreview\Scripts\Editor\InstantPreviewBugReport.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\Analytics\ArcoreClearcut.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\Analytics\ArcoreSdkLog.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\AndroidDependenciesHelper.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\ARCoreAnalytics.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\ARCoreAnalyticsGUI.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\ARCoreAnalyticsPreferences.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\ARCoreAnalyticsProvider.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\ARCoreIOSSupportHelper.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\ARCoreIOSSupportPreprocessBuild.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\ARCoreProjectSettingsGUI.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\ARCoreProjectSettingsProvider.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\ARCoreProjectSettingsWindow.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\ARCoreSupportedPreprocessBuild.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\AssetHelper.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\AugmentedImageDatabaseContextMenu.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\AugmentedImageDatabaseInspector.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\AugmentedImageDatabasePreprocessBuild.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\BackgroundJobExecutor.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\CloudAnchorPreprocessBuild.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\ExampleBuildHelper.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\ExamplePreprocessBuild.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\HelpAttributeDrawer.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\LogRequestUtils.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\PreprocessBuildBase.cs" />
+    <Compile Include="Assets\Packages_Import\GoogleARCore\SDK\Scripts\Editor\RequiredOptionalPreprocessBuild.cs" />
+    <None Include="Assets\Packages_Import\GoogleARCore\Editor\ARCoreiOSDependencies.template" />
+    <None Include="Assets\Packages_Import\PlayServicesResolver\Editor\play-services-resolver_v1.2.122.0.txt" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>D:/unity_projects/Human_Nuggets/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
@@ -338,19 +338,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>D:/unity_projects/Human_Nuggets/Assets/Import/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
+      <HintPath>D:/unity_projects/Human_Nuggets/Assets/Packages_Import/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Google.IOSResolver_v1.2.122.0">
-      <HintPath>D:/unity_projects/Human_Nuggets/Assets/Import/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.122.0.dll</HintPath>
+      <HintPath>D:/unity_projects/Human_Nuggets/Assets/Packages_Import/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.122.0.dll</HintPath>
     </Reference>
     <Reference Include="Google.JarResolver_v1.2.122.0">
-      <HintPath>D:/unity_projects/Human_Nuggets/Assets/Import/PlayServicesResolver/Editor/Google.JarResolver_v1.2.122.0.dll</HintPath>
+      <HintPath>D:/unity_projects/Human_Nuggets/Assets/Packages_Import/PlayServicesResolver/Editor/Google.JarResolver_v1.2.122.0.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
-      <HintPath>D:/unity_projects/Human_Nuggets/Assets/Import/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+      <HintPath>D:/unity_projects/Human_Nuggets/Assets/Packages_Import/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandlerImpl_v1.2.122.0">
-      <HintPath>D:/unity_projects/Human_Nuggets/Assets/Import/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.122.0.dll</HintPath>
+      <HintPath>D:/unity_projects/Human_Nuggets/Assets/Packages_Import/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.122.0.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>D:/unity_projects/Human_Nuggets/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
