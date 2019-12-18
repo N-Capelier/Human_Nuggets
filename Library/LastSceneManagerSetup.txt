@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_Scenes/NCO_Main.unity
+- path: Assets/_Scenes/PRBA_LD.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
