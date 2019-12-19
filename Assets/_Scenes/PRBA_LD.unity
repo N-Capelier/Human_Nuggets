@@ -171,7 +171,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 58.144184
+  field of view: 101.68645
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -197,7 +197,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269373912}
   m_LocalRotation: {x: -0.00000016216629, y: 0.8660254, z: -0.5, w: -0.00000009362675}
-  m_LocalPosition: {x: 86, y: 1077, z: 1460}
+  m_LocalPosition: {x: 120, y: 1228, z: 1207}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -214,41 +214,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ville
-      objectReference: {fileID: 0}
-    - target: {fileID: 3046788020700147774, guid: 25b9714ef87e5ac45ace6f260d577e66,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 3046788020700147774, guid: 25b9714ef87e5ac45ace6f260d577e66,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 490
-      objectReference: {fileID: 0}
-    - target: {fileID: 3046788020700147774, guid: 25b9714ef87e5ac45ace6f260d577e66,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 895
-      objectReference: {fileID: 0}
-    - target: {fileID: 3046788020700147774, guid: 25b9714ef87e5ac45ace6f260d577e66,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3046788020700147774, guid: 25b9714ef87e5ac45ace6f260d577e66,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3046788020700147774, guid: 25b9714ef87e5ac45ace6f260d577e66,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3046788020700147774, guid: 25b9714ef87e5ac45ace6f260d577e66,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3046788020700147774, guid: 25b9714ef87e5ac45ace6f260d577e66,
         type: 3}
@@ -362,7 +327,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090689289}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 478, y: 1196, z: 653}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
