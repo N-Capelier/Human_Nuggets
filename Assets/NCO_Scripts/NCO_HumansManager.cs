@@ -38,7 +38,7 @@ namespace WorldManagement
             int ran = Random.Range(0, spawnPoints.Count);
             GameObject human = spawnPoints[ran].GetComponent<NCO_SpawnerBehaviour>().SpawnHuman();
             human.transform.SetParent(GetComponent<NCO_WorldBuilder>().anchor.gameObject.transform);
-            yield return new WaitForSeconds((float)difficulty - (float)difficulty * 0.5f);
+            yield return new WaitForSeconds((float)difficulty - (float)difficulty * 0.5f + 6.0f);
             globalDifficulty = GetComponent<NCO_GameManager>().globalDifficulty;
             StartCoroutine(SpawnHuman(globalDifficulty));
 

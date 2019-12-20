@@ -21,6 +21,7 @@ namespace HumanManagement
         {
             GameObject humanToSpawn = GameObject.Find("World Manager").GetComponent<NCO_HumansManager>().GetRandomHuman();
             GameObject instance = (GameObject)Instantiate(humanToSpawn, gameObject.transform);
+            Debug.Log("Human spawned");
             return instance;
         }
     }
