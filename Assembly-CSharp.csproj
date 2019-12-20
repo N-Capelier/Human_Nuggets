@@ -64,6 +64,12 @@
   <ItemGroup>
     <Compile Include="Assets\ALH_Scripts\ApplicationLifecycle.cs" />
     <Compile Include="Assets\ALH_Scripts\InitializeAnchor.cs" />
+    <Compile Include="Assets\NCO_Scripts\NCO_GameManager.cs" />
+    <Compile Include="Assets\NCO_Scripts\NCO_HumanBehaviour.cs" />
+    <Compile Include="Assets\NCO_Scripts\NCO_HumansManager.cs" />
+    <Compile Include="Assets\NCO_Scripts\NCO_NuggetsSpawnerBehaviour.cs" />
+    <Compile Include="Assets\NCO_Scripts\NCO_SpawnerBehaviour.cs" />
+    <Compile Include="Assets\NCO_Scripts\NCO_WorldBehaviour.cs" />
     <Compile Include="Assets\NCO_Scripts\NCO_WorldBuilder.cs" />
     <Compile Include="Assets\Packages_Import\GoogleARCore\Examples\AugmentedFaces\Scripts\ARCoreAugmentedFaceMeshFilter.cs" />
     <Compile Include="Assets\Packages_Import\GoogleARCore\Examples\AugmentedFaces\Scripts\ARCoreAugmentedFaceRig.cs" />
