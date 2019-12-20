@@ -16,6 +16,8 @@ namespace Inputs
         RaycastHit hit;
         GameObject lastHumanGrabbed = null;
 
+        bool isGrabbed = false;
+
         void Start()
         {
 
@@ -33,8 +35,9 @@ namespace Inputs
                 if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 10f, humanLayer))
                 {
                     lastHumanGrabbed = hit.transform.gameObject;
-                    hit.transform.parent = Camera.main.transform;
+                    hit.transform.parent = Camera.main.transform; //.gameObject.GetComponent<NCO_CameraManager>().handler.transform;
                     hit.transform.gameObject.GetComponent<Rigidbody>().useGravity = false;
+                    isGrabbed = true;
                     Debug.Log("Begin Touch");
                 }else
                 {
@@ -45,13 +48,20 @@ namespace Inputs
             {
                 if (lastHumanGrabbed != null)
                 {
-                    lastHumanGrabbed.transform.parent = null;
+                    lastHumanGrabbed.transform.parent = null; //GameObject.Find("World Manager").GetComponent<NCO_WorldBuilder>().anchor.transform;
                     lastHumanGrabbed.GetComponent<Rigidbody>().useGravity = true;
+                    isGrabbed = false;
                     Debug.Log("End Touch");
                 }
                 
 
             }
+            /*
+            if(lastHumanGrabbed != null && isGrabbed == true)
+            {
+                lastHumanGrabbed.transform.position = Vector3.zero;
+            }
+            */
         }
     }
 
