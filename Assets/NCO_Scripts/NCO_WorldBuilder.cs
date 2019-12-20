@@ -76,7 +76,7 @@ namespace WorldManagement
             if (plane.ExtentX >= xSize && plane.ExtentZ >= zSize)
             {
                 Debug.Log("Found good size");
-                world = (GameObject)Instantiate(Resources.Load("Prefabs/City"));
+                world = (GameObject)Instantiate(Resources.Load("Prefabs/Ville"));
                 world.transform.position = plane.CenterPose.position;
                 world.transform.SetParent(anchor.transform);
                 //m_drone.transform.position = pose.position;
